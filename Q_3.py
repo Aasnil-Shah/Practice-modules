@@ -1,9 +1,7 @@
-def calculation(a,b):
-    sum = a + b
-    sub = a - b
-    val = [sum,sub]
-    return val
-
-ans = calculation(2,4)
-print("Addition of numbers is:", ans[0])
-print("Subtractiion of numbers is:", ans[1])
+sum = 0
+i = 0
+n = int(input("Enter the number until which you want to find the sum:"))
+while i in range(n+1):
+    sum = sum + i
+    i = i + 1
+print(sum)

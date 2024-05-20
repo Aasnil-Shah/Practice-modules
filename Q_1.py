@@ -1,8 +1,6 @@
-def employee(ename,eid = 1):
-    Name = ename
-    ID = eid
-    print("EmployeeID -", ID)
-    print("Employee Name -", Name)
-
-employee("aASNIL", 4)
-employee("Aasu")
+#len = int(input("Enter the end number of the patern:"))
+len = 11
+i = 0
+while i in range(len+1):
+    print(i)
+    i=i+1

@@ -1,5 +1,7 @@
-def func1(**arguments):
-    for i in arguments:
-        print(arguments[i], end = "")
-
-func1(a="adfd",b="2354435",c="aauuh",d="efwe")
+len = int(input("Enter the end number of the patern:"))
+#d = 5
+for i in range(len+1):
+    x = i
+    for j in range(x):
+        print(j+1, end = " ")
+    print()
