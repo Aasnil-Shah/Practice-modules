@@ -8,3 +8,4 @@ for char in str1:
     else:
         str2 = str2 + char 
 print(str2)
+#str1.replace('.',',')

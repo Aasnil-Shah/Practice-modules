@@ -1,9 +1,0 @@
-list1 = [11,45,8,23,14,12,78,45,89]
-lst_len = len(list1)
-len_3 = int(lst_len/3)
-chnk_1 = list1[:len_3]
-chnk_2 = list1[len_3:2*len_3]
-chnk_3 = list1[2*len_3:]
-print("Chunk 1:", chnk_1)
-print("Chunk 2:", chnk_2)
-print("Chunk 3:", chnk_3)

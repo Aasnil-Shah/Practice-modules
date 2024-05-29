@@ -1,9 +1,9 @@
 #str1 = "JohnDipPeta"
-str1 = "JaSonAy"
+str1 = "JaSonAya"
 strlen = len(str1)
-if strlen > 6:
+if (strlen > 7) and (strlen % 2 == 1):
     index = int((strlen-1)/2)
-    out_str = str1[index-1] + str1[index] + str1[index+1]
+    out_str = str1[index-1:index+2] 
     print(out_str)
 else:
-    print("Enter a string of length > 6")
+    print("Enter a odd length string of length > 7")

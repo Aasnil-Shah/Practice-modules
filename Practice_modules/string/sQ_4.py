@@ -1,9 +1,9 @@
 str1 = "PyNaTive"
-out = ""
+out1 = ""
+out2 = ""
 for i in str1:
     if i.islower():
-        out = out + i
-for i in str1:
-    if i.isupper():
-        out = out + i
-print(out)
+        out1 += i
+    else:
+        out2 += i
+print(out1 + out2)
