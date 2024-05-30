@@ -1,19 +1,10 @@
-def compress_string(string):
-    uc_str = string
-    size = len(uc_str)
+def compress_string(string1):
     c_str = ""
-    count = 1
-    for i in range(size-1):
-        if uc_str[i] == uc_str[i+1]:
-            count = count + 1
-        else:
-            c_str = c_str + uc_str[i] + str(count)
-            count = 1
-        
-    if uc_str[size-1] != uc_str[size-2]:
-        c_str = c_str + uc_str[size-1] + "1"
-    else:
-        c_str = c_str + uc_str[size-1] + str(count)
+    c_dict = {}
+    for substring in string1:
+        c_dict[substring] = string1.count(substring)
+    for char in c_dict.keys():
+        c_str += char + str(c_dict[char])
     return c_str
 
 in1 = "AABBBCDDDD"

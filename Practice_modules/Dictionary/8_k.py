@@ -1,5 +1,5 @@
-dict = {"son's name:":"Lucas", "son's eyes:":"green","son's height:":32,"son's weight:":25}
+dict1 = {"son's name:":"Lucas", "son's eyes:":"green","son's height:":32,"son's weight:":25}
 
-ans_1 = min(zip(dict.keys(), dict.values()))[0]
-
+values = [val for val in dict1.values() if str(val).isdigit()]
+ans_1 = [i for i in dict1 if dict1[i]==min(values)]
 print(ans_1)

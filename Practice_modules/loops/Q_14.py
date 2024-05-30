@@ -1,6 +1,9 @@
 strint = input("Enter the integer to reverse:")
-strlen = len(strint)
 rstrint = ""
-for i in range(strlen):
-    rstrint = rstrint + strint[-i-1]
-print(rstrint)
+if strint.isdigit():
+    strlen = len(strint)
+    for i in range(strlen-1,-1,-1):
+        rstrint += strint[i]
+else:
+    print("Enter a valid non-negative no.")
+print(rstrint, end="")

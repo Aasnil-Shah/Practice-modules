@@ -1,4 +1,4 @@
-dict = {"son's name:":"Lucas", "son's eyes:":"green","son's height:":32,"son's weight:":25}
-
-ans_1 = max(zip(dict.keys(), dict.values()))[0]
+dict1 = {"son's name:":"Lucas", "son's eyes:":"green","son's height:":32,"son's weight:":25}
+values = [val for val in dict1.values() if str(val).isdigit()]
+ans_1 = [i for i in dict1 if dict1[i]==max(values)]
 print(ans_1)

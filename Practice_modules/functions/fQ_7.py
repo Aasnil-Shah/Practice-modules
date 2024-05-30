@@ -1,12 +1,11 @@
 def minmax(a):
-    list_a = a
-    mn_mx = [2^63-1,-(2^63)] 
-    for i in list_a:
-        if i < mn_mx[0]:
-            mn_mx[0] = i
-        if i > mn_mx[1]:
-            mn_mx[1] = i
-    return mn_mx
+    min_val = max_val = a[0]
+    for i in a[1:]:
+        if i < min_val:
+            min_val = i
+        if i > max_val:
+            max_val = i
+    return min_val,max_val
 
 lst = [1,3,3,1111,1,134]
 ans = minmax(lst)

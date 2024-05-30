@@ -1,26 +1,19 @@
-str1 = "Hi How are you python"
+str1 = "Hi How are you python ahoy captain"
 r_str1 = ""
-sub_str = ""
-wrd_lst = []
-strlen = len(str1)
-for i in range(strlen):
-    if str1[i] == " ":
-        wrd_lst.append(sub_str)
-        sub_str = ""
-    else:
-        sub_str = sub_str + str1[i]
-wrd_lst.append(sub_str)
+wrd_lst = str1.split()
 lst_len = len(wrd_lst)
-mid = int((lst_len-1)/2)
 for j in range(lst_len):
-    temp = str(wrd_lst[j])
-    if j == mid:
-        r_str1 = r_str1 + temp[::-1] + " "
-    elif j == (mid+1):
-        r_str1 = r_str1 + temp[::-1] + " "
-    elif j == (mid-1):
-        r_str1 = r_str1 + temp[::-1] + " "
+    if lst_len % 2 == 0:
+        mid = int((lst_len)/2)
+        if j in range(mid-2,mid+2):
+            r_str1 += wrd_lst[j][::-1] + " "
+        else:
+            r_str1 += wrd_lst[j] + " "
     else:
-        r_str1 = r_str1 + temp + " "
+        mid = int((lst_len-1)/2)
+        if j in range(mid-1,mid+2):
+            r_str1 += wrd_lst[j][::-1] + " "
+        else:
+            r_str1 += wrd_lst[j] + " "
 
 print(r_str1)

@@ -1,4 +1,4 @@
-def employee(ename,eid = 1):
+def employee(ename,eid = "001"):
     Name = ename
     ID = eid
     print("EmployeeID -", ID)
