@@ -2,6 +2,7 @@ def transpose(a):
     out_t_a = []
     t_a = zip(*a)
     for element in t_a:
+        print(element)
         out_t_a.append(element)
     return out_t_a
 
