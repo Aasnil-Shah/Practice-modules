@@ -1,3 +1,5 @@
+'''Given an input string, count occurrences of all characters within a string'''
+
 str1 = "Apple"
 rep_dict = {}
 for i in str1:

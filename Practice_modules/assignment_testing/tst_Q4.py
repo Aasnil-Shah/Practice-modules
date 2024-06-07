@@ -1,3 +1,7 @@
+'''Write a program to reverse middle words of string. 
+Input: Hi how are you python
+Output: Hi woh era uoy python'''
+
 str1 = "Hi How are you python ahoy captain"
 r_str1 = ""
 wrd_lst = str1.split()

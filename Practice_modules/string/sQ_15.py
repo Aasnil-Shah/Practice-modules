@@ -1,3 +1,5 @@
+'''Remove special symbols/Punctuation from a given string'''
+
 str1 = "/* Jon is a @developer & musician"
 str1_new = ""
 for str in str1:

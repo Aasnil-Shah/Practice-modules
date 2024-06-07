@@ -1,3 +1,6 @@
+'''Given a string of odd length greater 7, return a string made of the middle three
+chars of a given String'''
+
 #str1 = "JohnDipPeta"
 str1 = "JaSonAya"
 strlen = len(str1)

@@ -1,3 +1,5 @@
+''' Count all lower case, upper case, digits, and special symbols from a given string'''
+
 str1 = "P@#yn26at^&i5ve"
 len_str = len(str1)
 cnt_chr = 0

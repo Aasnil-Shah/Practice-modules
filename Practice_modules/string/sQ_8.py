@@ -1,3 +1,5 @@
+'''Find all occurrences of “USA” in given string ignoring the case.'''
+
 str1 = "Welcome to USA. usa is awesome, isn't it! usa USA!! USA!!!!!"
 
 cnt = 0

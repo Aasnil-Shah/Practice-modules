@@ -1,3 +1,6 @@
+'''Given 2 strings, s1, and s2 return a new string made of the first, middle and last
+char each input string'''
+
 s1 = "America"
 s2 = "Japan"
 len_s1 = len(s1)

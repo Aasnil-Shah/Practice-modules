@@ -1,3 +1,6 @@
+'''Given 2 strings, s1 and s2, create a new string by appending s2 in the middle of
+s1.'''
+
 s1 = "Ault"
 s2 = "Kelly"
 len_s1 = len(s1)

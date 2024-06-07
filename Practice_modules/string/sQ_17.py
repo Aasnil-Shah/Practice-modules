@@ -1,3 +1,5 @@
+'''Find words with both alphabets and number'''
+
 str1 = "Emma25 is a Data scientist50 and an AI expert"
 strlist = str1.split()
 for substr in strlist:

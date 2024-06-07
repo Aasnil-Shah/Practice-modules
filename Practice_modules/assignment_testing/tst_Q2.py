@@ -1,3 +1,5 @@
+'''Write a program to swap comma and dot in string. Input: “32.054,23” Output: “32,054.23”'''
+
 str1 = "32.054,23"
 str2 = ""
 '''for char in str1:

@@ -1,3 +1,6 @@
+'''Create a function which returns the largest and smallest number from the
+given list. (Without using max() and min() function.)'''
+
 def minmax(a):
     min_val = max_val = a[0]
     for i in a[1:]:

@@ -1,3 +1,6 @@
+'''Reverse the following list using for loop.
+list1 = [10, 20, 30, 40, 50]'''
+
 list1 = [10, 20, 30, 40, 50]
 first = 0
 last = len(list1) - 1

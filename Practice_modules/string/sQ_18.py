@@ -1,3 +1,5 @@
+''' From given string replace each punctuation with #.'''
+
 str1 = "/*Jon is a @developer & musician!"
 spl_chr = ["/","*","@","&","!"]
 for i in spl_chr:

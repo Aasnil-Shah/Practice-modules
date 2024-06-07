@@ -1,3 +1,9 @@
+'''Reverse a given integer number. 
+Given:
+76542
+Expected output:
+24567'''
+
 strint = input("Enter the integer to reverse:")
 rstrint = ""
 if strint.isdigit():

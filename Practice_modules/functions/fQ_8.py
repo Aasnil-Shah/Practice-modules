@@ -1,3 +1,10 @@
+'''Create a function which returns compressed string of the data entered by the
+user.
+input: AABBBCDDDD
+output: A2B3C1D4
+input: ABCDDDDD
+output: A1B1C1D5'''
+
 def compress_string(string1):
     c_str = ""
     c_dict = {}

@@ -1,3 +1,9 @@
+'''Create a function which returns a given list as given below:
+input: [[1,2,3], [4,5,6], [7,8,9]]
+output: [[1,4,7], [2,5,8], [3,6,9]]
+input: [[A,B,C], [P,Q,R], [X,Y,Z]]
+output: [[A,P,X], [B,Q,Y], [C,R,Z]]'''
+
 def transpose(a):
     out_t_a = []
     t_a = zip(*a)

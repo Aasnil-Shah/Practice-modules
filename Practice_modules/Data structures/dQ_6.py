@@ -1,3 +1,6 @@
+'''Iterate a given list and Check if a given element already exists in a dictionary as
+a key’s value if not delete it'''
+
 rollno = [47,64,69,37,76,83,95,97]
 dict1 = {'Jhon':47,'Emma':69,'Kelly':76,'Jason':97}
 rollno1 = []

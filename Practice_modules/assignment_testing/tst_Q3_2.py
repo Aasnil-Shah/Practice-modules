@@ -1,3 +1,5 @@
+'''Write a program to find two string Anagram or Not. (Anagram Ex: 1. listen, Silent . 2. Read,Dear'''
+
 str1 = "listen"
 str2 = "silent"
 #str1 = "read"

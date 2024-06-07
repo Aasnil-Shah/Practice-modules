@@ -1,3 +1,5 @@
+'''Write a program to find the ASCII value of each character of the string in python. '''
+
 str1 = "DELL"
 str_ascii = ""
 for char in str1:

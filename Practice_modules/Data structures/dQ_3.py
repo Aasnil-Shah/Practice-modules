@@ -1,3 +1,5 @@
+'''Given a list slice it into a 3 equal chunks and rever each list'''
+
 list1 = [11,45,8,23,14,12,78,45,89]
 lst_len = len(list1)
 len_3 = int(lst_len/3)

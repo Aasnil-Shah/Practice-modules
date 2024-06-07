@@ -1,3 +1,7 @@
+'''Write a program which can accept a number and return the nearest palindrome
+number. Input: 123000
+Output: 123321'''
+
 #num1 = input("Enter a non-single digit positive number you want to find the nearest palindrome for:")
 num1 = "123000"
 num_len = len(num1)
